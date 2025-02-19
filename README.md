@@ -111,6 +111,13 @@ cd kafka-project
 mvn spring-boot:run
 ```
 
+## Application Screenshots:
+### When we hit the "/location" endpoint to update the driver location using POSTMAN:
+<img width="1007" alt="Image" src="https://github.com/user-attachments/assets/8c9f33af-5678-4695-9b32-ff94c370af03" />
+
+### Consumer(User) consuming the location updates from the Producer(Driver):
+<img width="676" alt="Image" src="https://github.com/user-attachments/assets/1b232075-2774-40fd-854f-ea3b1c5ee6e9" />
+
 ## Conclusion
 
 This project demonstrates a **real-time event-driven architecture** using **Apache Kafka**. It efficiently enables **location tracking** in a **cab booking system**.
