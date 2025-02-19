@@ -33,8 +33,6 @@ Kafka is built on a **Publisher-Subscriber (Pub-Sub) model**, where:
 - **Partitions**: Subdivisions within a topic to enable parallel processing.
 - **Zookeeper**: A central coordinator that manages broker metadata and leader election.
 
----
-
 ## Project Overview
 
 ### Features:
@@ -49,8 +47,6 @@ Kafka is built on a **Publisher-Subscriber (Pub-Sub) model**, where:
 - **Apache Kafka** (Message Broker)
 - **Spring Kafka** (Integration)
 - **Java** (Language)
-
----
 
 ## Getting Started
 
@@ -88,7 +84,7 @@ bin/kafka-topics.sh --create --topic quickstart-events --bootstrap-server localh
 bin/kafka-topics.sh --describe --topic quickstart-events --bootstrap-server localhost:9092
 ```
 
-**Write** events into topic (Producing events):
+**WRITE** events into topic (Producing events):
 
 ```sh
 bin/kafka-console-producer.sh --topic quickstart-events --bootstrap-server localhost:9092
@@ -96,7 +92,7 @@ bin/kafka-console-producer.sh --topic quickstart-events --bootstrap-server local
 > This is my second event
 ```
 
-**Read** the events (consuming events):
+READ the events (consuming events):
 
 ```sh
 bin/kafka-console-consumer.sh --topic quickstart-events --from-beginning --bootstrap-server localhost:9092
@@ -114,8 +110,6 @@ cd kafka-project
 ```sh
 mvn spring-boot:run
 ```
-
----
 
 ## Conclusion
 
